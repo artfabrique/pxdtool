@@ -1,0 +1,39 @@
+{
+  "name": "pxdtools",
+  "version": "1.0.0",
+  "description": "Tool set for designing UI and UX for games",
+  "main": "main.js",
+  "scripts": {
+    "test": "runTest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artfabrique/pxdtool.git"
+  },
+  "keywords": [
+    "ux",
+    "ui",
+    "game",
+    "design",
+    "uxd",
+    "user",
+    "experience",
+    "user",
+    "interface",
+    "adobe",
+    "adobe",
+    "xd",
+    "xd",
+    "plugin",
+    "games"
+  ],
+  "author": "Alexander Vinogradov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artfabrique/pxdtool/issues"
+  },
+  "homepage": "https://github.com/artfabrique/pxdtool#readme",
+  "dependencies": {
+    "xd-json-wrapper": "^1.0.0"
+  }
+}
