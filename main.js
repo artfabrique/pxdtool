@@ -5,7 +5,7 @@
  */
 
 const { ImageFill } = require ("scenegraph");
-const { getDocumentAsJSON } = require("xd-json-wrapper");
+const { getDocumentAsJSON } = require("./node_modules/xd-json-wrapper/index");
 
 function myPluginCommand(selection,documentRoot) {
     
@@ -20,7 +20,7 @@ function myPluginCommand(selection,documentRoot) {
     }
     
     const wrappedDocument= getDocumentAsJSON(documentRoot);
-    const json = wrappedDocument.toJSON();
+    const json = JSON.stringify(wrappedDocument, null, 4);
     console.log(json);
 }
 
